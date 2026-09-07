@@ -5,8 +5,12 @@ import matplotlib.pyplot as plt
 from IPython.display import Image, display
 
 #entering csv file
-def EDA(df):
+def EDA(df,target:any):
     #check the extension of data
+    # print(target)
+    # print("Your Target Column:")
+    # print(df[target])
+    # print('-------------------------------------------------------------------------------------')
     print("Data Size")
     print(df.shape)
     print("Information:")
