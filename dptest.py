@@ -22,6 +22,6 @@ def EDA(data):
         </p>
     </div>
     """
-    
+    # learn here: https://share.google/aimode/7pIaZ8DkgQiwyGqt2
     # 3. Use display(HTML()) instead of a standard return or print statement
     display(HTML(html_content))
