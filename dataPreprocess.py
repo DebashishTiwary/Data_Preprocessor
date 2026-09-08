@@ -48,3 +48,5 @@ def EDA(df,target:any):
         plt.xlabel(feature)
         plt.show()
 
+
+
