@@ -7,7 +7,7 @@ from IPython.display import Image, display
 #entering csv file
 def EDA(df,target:any):
     #check the extension of data
-    # print(target)
+    #print(df[target])
     # print("Your Target Column:")
     # print(df[target])
     # print('-------------------------------------------------------------------------------------')
@@ -39,5 +39,12 @@ def EDA(df,target:any):
         plt.title(f'Distribution of {feature}')
         plt.xlabel(feature)
         plt.ylabel('Frequency')
+        plt.show()
+
+    for feature in numerical_features:
+        plt.figure(figsize=(6,4))
+        plt.title('BoxPlot')
+        plt.boxplot(x=df[feature])
+        plt.xlabel(feature)
         plt.show()
 
