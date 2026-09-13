@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "d20-data-preprocess"  # This is the name people will use for 'pip install'
 version = "0.0.1"
 authors = [
-  { name="Your Name", email="your.email@example.com" },
+  { name="Debashish Tiwary", email="debasishtewary5@gmail.com" },
 ]
 description = "A data preprocessing package."
 readme = "README.md"
@@ -17,9 +17,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-# This explicitly tells hatchling to look inside 'src' and bundle 'd20_data_preprocess'
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/d20_data_preprocess"]
 
 [project.urls]
-Homepage = "https://github.com"
+Homepage = "https://github.com/DebashishTiwary/Data_Preprocessor.git"
