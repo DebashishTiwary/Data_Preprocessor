@@ -95,9 +95,9 @@ def d20help(topic="all"):
 
     # 2. Logic to handle the "all" argument
     if topic.lower() == "all":
-        print("=" * 60)
-        print("📊 COMPLETE DATA PREPROCESSING REFERENCE GUIDES 📊")
-        print("=" * 60)
+        
+        print("COMPLETE DATA PREPROCESSING REFERENCE GUIDES")
+        
         
         for category, functions in catalog.items():
             print(f"\n🔹 {category}")
